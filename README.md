@@ -1,7 +1,7 @@
 # house-price-prediction
 Predictive Analysis using Machine Learning
 
- # House Price Prediction ML Project
+# House Price Prediction ML Project
 
 This project demonstrates a basic machine learning pipeline for predicting house prices. It covers data generation (or loading), preprocessing, model training, evaluation, and making new predictions.
 
@@ -35,8 +35,9 @@ Follow these steps to set up and run the project locally.
 ### Installation
 
 1.  **Clone the repository (or download the files):**
-    ```bash git clone https://github.com/YOUR_USERNAME/house-price-prediction.git
-cd house-price-prediction
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/house-price-prediction.git](https://github.com/YOUR_USERNAME/house-price-prediction.git)
+    cd house-price-prediction
     ```
     *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
 
@@ -81,7 +82,6 @@ cd house-price-prediction
     ```
 
 ## Project Structure
-
 house-price-prediction/
 ├── README.md
 ├── requirements.txt
