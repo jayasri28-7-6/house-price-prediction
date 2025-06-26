@@ -1,2 +1,0 @@
-lasso = Lasso(alpha=0.1)
-lasso.fit(X_train, y_train)
