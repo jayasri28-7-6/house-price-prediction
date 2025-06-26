@@ -1,0 +1,2 @@
+joblib.dump(best_rf, 'trained_model.pkl')
+print("Model saved successfully!")
