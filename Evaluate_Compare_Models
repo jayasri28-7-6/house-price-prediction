@@ -1,8 +1,0 @@
-models = {'Linear': lr, 'Lasso': lasso, 'Random Forest': rf}
-
-for name, model in models.items():
-    y_pred = model.predict(X_test)
-    print(f"\n{name} Results:")
-    print("R²:", r2_score(y_test, y_pred))
-    print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
-    print("MAE:", mean_absolute_error(y_test, y_pred))
