@@ -108,6 +108,7 @@ def train_and_evaluate_model(data_path='house_data.csv', model_filename='house_p
     plt.title("Distribution of Residuals")
     plt.grid(True)
     plt.show()
+    plt.savefig('actual_vs_predicted.png')
 
 if __name__ == "__main__":
     train_and_evaluate_model()
