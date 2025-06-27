@@ -36,6 +36,8 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository (or download the files):**
     ```bash
+    https://github.com/YOUR_USERNAME/house-price-prediction.git
+
    git clone https://github.com/YOUR_USERNAME/house-price-prediction.git
 cd house-price-prediction
     ```
