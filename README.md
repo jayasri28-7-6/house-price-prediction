@@ -89,7 +89,7 @@ house-price-prediction/
 ├── data_generator.py
 ├── train_model.py
 ├── predict_price.py
-├── house_data.csv         
+        
 ```
 ## Dependencies
 
