@@ -24,10 +24,6 @@ This project implements a machine learning pipeline for predicting house prices.
 
 A visualization showing actual house prices against predicted prices. Points should ideally fall close to the red regression line.
 
-![Actual vs. Predicted House Prices](actual_vs_predicted.png)
-
-You can also view `actual_vs_predicted.png` directly by opening the `output_visualization.html` file after training the model.
-
 ## Getting Started
 
 Follow these steps to set up and run the project locally.
@@ -41,8 +37,7 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository (or download the files):**
     ```bash
-    https://github.com/YOUR_USERNAME/house-price-prediction.git
-    
+      https://github.com/YOUR_USERNAME/house-price-prediction.git
     ```
     *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
 
@@ -75,7 +70,7 @@ Follow these steps to set up and run the project locally.
     ```
 
 2.  **Train the model:**
-    This script preprocesses data, trains, evaluates, generates plots (`actual_vs_predicted.png`), and saves `house_price_model.pkl`.
+    This script preprocesses data, trains, evaluates, generates plots, and saves `house_price_model.pkl`.
     ```bash
     python train_model.py
     ```
@@ -94,9 +89,7 @@ house-price-prediction/
 ├── data_generator.py
 ├── train_model.py
 ├── predict_price.py
-├── house_price_model.pkl   
-├── actual_vs_predicted.png 
-└── output_visualization
+├── house_data.csv         
 ```
 ## Dependencies
 
